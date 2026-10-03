@@ -1,10 +1,14 @@
+# >>> standard ignores, written by the update-gitignore skill: change its templates, not this block
 # Plans, briefs and concept notes for agents working on this repo. Never published.
 .documents/
 
-# Credentials never live in a repo; the universal .env is at ~/code/.env.
+# Credentials never live in a repo.
 .env
 .env.*
 !.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
 *.pem
 *.key
 *.p12
@@ -25,8 +29,13 @@ client_secret*.json
 Thumbs.db
 desktop.ini
 
-# Editor tooling that records sessions.
+# AI and editor tooling.
 .specstory/
+.cursor/
+.claude/settings.local.json
+
+# Files tests write.
+tests/_output/
 
 # Logs and scratch.
 *.log
@@ -64,12 +73,10 @@ pnpm-debug.log*
 .stylelintcache
 
 # Cloudflare Workers. The real config carries account details; commit a
-# wrangler.example.jsonc instead. .dev.vars holds local secrets.
+# wrangler.example.jsonc instead.
 wrangler.jsonc
 wrangler.toml
 .wrangler/
-.dev.vars
-.dev.vars.*
 worker-configuration.d.ts
 
 # Framework caches.
@@ -79,3 +86,7 @@ worker-configuration.d.ts
 .nuxt/
 .vite/
 .turbo/
+# <<< standard ignores
+
+# Python caches from scripts/playbook
+__pycache__/

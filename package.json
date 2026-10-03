@@ -20,11 +20,21 @@
   ],
   "scripts": {
     "test": "vitest run",
-    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tests/tsconfig.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tests/tsconfig.json && tsc --noEmit -p scripts/tsconfig.json"
   },
   "devDependencies": {
+    "@echarts-x/custom-contour": "^1.2.1",
+    "@resvg/resvg-js": "^2.6.2",
     "@types/node": "^26.6.4",
+    "@types/topojson-client": "^3.1.5",
+    "echarts": "^6.1.0",
+    "topojson-client": "^3.1.0",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "vitest": "^5.0.3"
+    "vitest": "^5.0.3",
+    "world-atlas": "^2.0.2"
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
   }
 }

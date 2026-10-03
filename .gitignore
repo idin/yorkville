@@ -1,0 +1,81 @@
+# Plans, briefs and concept notes for agents working on this repo. Never published.
+.documents/
+
+# Credentials never live in a repo; the universal .env is at ~/code/.env.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+api_keys.json
+service_account*.json
+client_secret*.json
+
+# Editors and operating systems.
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor tooling that records sessions.
+.specstory/
+
+# Logs and scratch.
+*.log
+logs/
+tmp/
+
+# Dependencies.
+node_modules/
+jspm_packages/
+.pnp.*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build output.
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Tests and coverage.
+coverage/
+.nyc_output/
+*.lcov
+
+# Package manager and runtime logs.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.npmrc
+.eslintcache
+.stylelintcache
+
+# Cloudflare Workers. The real config carries account details; commit a
+# wrangler.example.jsonc instead. .dev.vars holds local secrets.
+wrangler.jsonc
+wrangler.toml
+.wrangler/
+.dev.vars
+.dev.vars.*
+worker-configuration.d.ts
+
+# Framework caches.
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vite/
+.turbo/

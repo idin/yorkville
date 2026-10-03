@@ -1,0 +1,30 @@
+{
+  "name": "yorkville",
+  "version": "0.1.0",
+  "description": "A TypeScript library for visualisation and plotting: charts, graphs and diagrams from data.",
+  "license": "MIT",
+  "author": "Idin <idin@ixmachina.ai>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idin/yorkville.git"
+  },
+  "homepage": "https://github.com/idin/yorkville#readme",
+  "bugs": {
+    "url": "https://github.com/idin/yorkville/issues"
+  },
+  "type": "module",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tests/tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

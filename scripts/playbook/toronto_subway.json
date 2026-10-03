@@ -1,0 +1,46 @@
+{
+  "about": "A simplified Toronto subway for the catalogue's transit pictures, read by both the Plotly and ECharts scripts. Stations are a subset; geographic positions are approximate [longitude, latitude]; schematic positions are hand-placed on a grid so every segment runs horizontal, vertical or at 45 degrees. colour_slot is the categorical palette slot (0-based) nearest each line's real colour. label_side puts a label left of its station where the default (right) would collide.",
+  "lines": [
+    {
+      "name": "Line 1",
+      "colour_slot": 3,
+      "stations": ["Finch", "Sheppard–Yonge", "Eglinton", "St Clair", "Bloor–Yonge", "College", "Union", "St Andrew", "Queen's Park", "St George", "St Clair West", "Eglinton West", "Wilson"]
+    },
+    {
+      "name": "Line 2",
+      "colour_slot": 2,
+      "stations": ["Kipling", "Jane", "Dundas West", "Spadina", "St George", "Bloor–Yonge", "Broadview", "Main Street", "Kennedy"]
+    },
+    {
+      "name": "Line 4",
+      "colour_slot": 6,
+      "stations": ["Sheppard–Yonge", "Bayview", "Don Mills"]
+    }
+  ],
+  "stations": {
+    "Finch": { "geographic": [-79.4147, 43.7806], "schematic": [6, 10] },
+    "Sheppard–Yonge": { "label_side": "left", "geographic": [-79.4110, 43.7615], "schematic": [6, 9] },
+    "Eglinton": { "geographic": [-79.3985, 43.7057], "schematic": [6, 7] },
+    "St Clair": { "geographic": [-79.3934, 43.6880], "schematic": [6, 6] },
+    "Bloor–Yonge": { "geographic": [-79.3857, 43.6710], "schematic": [6, 4] },
+    "College": { "geographic": [-79.3830, 43.6613], "schematic": [6, 2] },
+    "Union": { "geographic": [-79.3806, 43.6453], "schematic": [5, 1] },
+    "St Andrew": { "geographic": [-79.3848, 43.6476], "schematic": [4, 2] },
+    "Queen's Park": { "geographic": [-79.3906, 43.6600], "schematic": [4, 3] },
+    "St George": { "label_side": "left", "geographic": [-79.3996, 43.6682], "schematic": [4, 4] },
+    "Spadina": { "geographic": [-79.4037, 43.6674], "schematic": [3, 4] },
+    "St Clair West": { "geographic": [-79.4152, 43.6840], "schematic": [3, 5] },
+    "Eglinton West": { "geographic": [-79.4355, 43.6990], "schematic": [3, 7] },
+    "Wilson": { "label_side": "left", "geographic": [-79.4501, 43.7343], "schematic": [1, 9] },
+    "Kipling": { "label_side": "left", "geographic": [-79.5359, 43.6372], "schematic": [-3, 4] },
+    "Jane": { "geographic": [-79.4843, 43.6499], "schematic": [-1, 4] },
+    "Dundas West": { "geographic": [-79.4527, 43.6566], "schematic": [1, 4] },
+    "Broadview": { "geographic": [-79.3585, 43.6770], "schematic": [8, 4] },
+    "Main Street": { "geographic": [-79.3015, 43.6890], "schematic": [10, 4] },
+    "Kennedy": { "geographic": [-79.2637, 43.7323], "schematic": [11, 5] },
+    "Bayview": { "geographic": [-79.3866, 43.7670], "schematic": [7.5, 9] },
+    "Don Mills": { "geographic": [-79.3459, 43.7755], "schematic": [9, 9] }
+  },
+  "shoreline": [[-79.62, 43.585], [-79.55, 43.595], [-79.50, 43.615], [-79.46, 43.632], [-79.42, 43.634], [-79.39, 43.638], [-79.36, 43.643], [-79.33, 43.650], [-79.30, 43.665], [-79.25, 43.690], [-79.18, 43.725]],
+  "geographic_view": { "longitude": [-79.60, -79.22], "latitude": [43.615, 43.795] }
+}

@@ -45,7 +45,7 @@ export const GRID_WITH_LEGEND = { ...GRID, right: 112 };
 /** A legend at the top right, as Plotly places it. */
 export const LEGEND = { right: 8, top: 36, orient: "vertical" as const, textStyle: { color: TEXT_SECONDARY } };
 
-const THEME_NAME = "yorkville_catalogue";
+const THEME_NAME = "plot_twist_catalogue";
 const AXIS_STYLE = {
   axisLine: { show: false },
   axisTick: { show: false },

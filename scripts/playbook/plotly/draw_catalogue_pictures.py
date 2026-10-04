@@ -7,8 +7,8 @@
 Run with `uv run scripts/playbook/plotly/draw_catalogue_pictures.py`. Existing
 pictures are never overwritten: move one to the trash to redraw it.
 
-Python and Plotly rather than yorkville itself, because yorkville cannot draw
-yet; once it can, these pictures should be redrawn by yorkville.
+Python and Plotly rather than plot-twist itself, because plot-twist cannot draw
+yet; once it can, these pictures should be redrawn by plot-twist.
 """
 
 import logging

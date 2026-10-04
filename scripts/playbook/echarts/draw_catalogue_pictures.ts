@@ -4,8 +4,8 @@
  * Run with `npx tsx scripts/playbook/echarts/draw_catalogue_pictures.ts`.
  * Existing pictures are never overwritten: move one to the trash to redraw it.
  *
- * ECharts directly rather than yorkville, because yorkville cannot draw yet;
- * once it can, these pictures should be redrawn by yorkville.
+ * ECharts directly rather than plot-twist, because plot-twist cannot draw yet;
+ * once it can, these pictures should be redrawn by plot-twist.
  */
 
 import { existsSync } from "node:fs";

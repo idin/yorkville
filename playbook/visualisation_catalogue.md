@@ -1,23 +1,23 @@
 # Visualisation catalogue
 
-Every kind of visualisation yorkville is meant to draw, as a checklist. Tick
-an item when yorkville can draw it, with a test, end to end, in both
+Every kind of visualisation plot-twist is meant to draw, as a checklist. Tick
+an item when plot-twist can draw it, with a test, end to end, in both
 renderers.
 
-**yorkville renders with both Plotly and ECharts**, as scribble.tube does: one
+**plot-twist renders with both Plotly and ECharts**, as scribble.tube does: one
 spec, either renderer, the same picture. An item is not done until both
 draw it, or the catalogue says why one cannot.
 
-yorkville will serve every MCP server that plots or visualises, scribble.tube
-first. Sections 1–4 are what scribble.tube already does, so yorkville must
+plot-twist will serve every MCP server that plots or visualises, scribble.tube
+first. Sections 1–4 are what scribble.tube already does, so plot-twist must
 cover them before scribble.tube can move onto it. Surveyed from scribble-tube
 at `23f6c54` (2026-09-30), mainly `src/items/plot/` and
 `.documents/concepts/plot_spec.md` and `map.md`.
 
 Each picture is drawn twice, by `scripts/playbook/plotly/` (Python) and
 `scripts/playbook/echarts/` (TypeScript), in scribble.tube's light palette,
-from made-up data. They show what each renderer can do, not yorkville's
-output: once yorkville can draw, it should redraw them.
+from made-up data. They show what each renderer can do, not plot-twist's
+output: once plot-twist can draw, it should redraw them.
 
 Sections 5–7 are not built anywhere yet: scribble.tube's own plans, transit
 maps, then a wider list of candidates to keep or strike.

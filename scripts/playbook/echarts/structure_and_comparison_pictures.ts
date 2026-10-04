@@ -341,7 +341,7 @@ export function drawTree(): EChartsOption {
   return { series: [{ type: "tree", orient: "TB", top: 70, bottom: 50, left: 40, right: 40, symbolSize: 14, initialTreeDepth: -1, expandAndCollapse: false,
     itemStyle: { color: CATEGORICAL[0], borderColor: CATEGORICAL[0] }, lineStyle: { color: TEXT_SECONDARY, width: 1, curveness: 0 },
     label: { position: "bottom", distance: 6, color: TEXT_PRIMARY }, leaves: { label: { position: "bottom" } },
-    data: [{ name: "yorkville", children: [{ name: "src", children: [{ name: "charts" }, { name: "maps" }] }, { name: "tests" }, { name: "playbook", children: [{ name: "pictures" }] }] }] }] };
+    data: [{ name: "plot-twist", children: [{ name: "src", children: [{ name: "charts" }, { name: "maps" }] }, { name: "tests" }, { name: "playbook", children: [{ name: "pictures" }] }] }] }] };
 }
 
 export const STRUCTURE_AND_COMPARISON_PICTURES: PictureList = {

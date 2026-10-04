@@ -1,8 +1,8 @@
 """The one look every catalogue picture shares, so they read as one set.
 
 Colours are scribble.tube's light theme (its `src/items/plot/palette.ts`),
-which comes from the dataviz skill's validated palette: yorkville's pictures
-should look like what yorkville will draw for scribble.tube.
+which comes from the dataviz skill's validated palette: plot-twist's pictures
+should look like what plot-twist will draw for scribble.tube.
 """
 
 from pathlib import Path

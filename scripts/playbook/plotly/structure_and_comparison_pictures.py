@@ -271,8 +271,8 @@ def draw_tree() -> go.Figure:
     Returns:
         The figure.
     """
-    nodes = {"yorkville": (0, 2), "src": (-1.5, 1), "tests": (0, 1), "playbook": (1.5, 1), "charts": (-2.2, 0), "maps": (-0.8, 0), "pictures": (1.5, 0)}
-    links = [("yorkville", "src"), ("yorkville", "tests"), ("yorkville", "playbook"), ("src", "charts"), ("src", "maps"), ("playbook", "pictures")]
+    nodes = {"plot-twist": (0, 2), "src": (-1.5, 1), "tests": (0, 1), "playbook": (1.5, 1), "charts": (-2.2, 0), "maps": (-0.8, 0), "pictures": (1.5, 0)}
+    links = [("plot-twist", "src"), ("plot-twist", "tests"), ("plot-twist", "playbook"), ("src", "charts"), ("src", "maps"), ("playbook", "pictures")]
     edge_x = [value for a, b in links for value in (nodes[a][0], nodes[b][0], None)]
     edge_y = [value for a, b in links for value in (nodes[a][1], nodes[b][1], None)]
     x, y = zip(*nodes.values())

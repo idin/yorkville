@@ -1,16 +1,16 @@
 {
-  "name": "yorkville",
+  "name": "plot-twist",
   "version": "0.1.0",
   "description": "A TypeScript library for visualisation and plotting: charts, graphs and diagrams from data.",
   "license": "MIT",
   "author": "Idin <idin@ixmachina.ai>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idin/yorkville.git"
+    "url": "git+https://github.com/idin/plot-twist.git"
   },
-  "homepage": "https://github.com/idin/yorkville#readme",
+  "homepage": "https://github.com/idin/plot-twist#readme",
   "bugs": {
-    "url": "https://github.com/idin/yorkville/issues"
+    "url": "https://github.com/idin/plot-twist/issues"
   },
   "type": "module",
   "files": [
